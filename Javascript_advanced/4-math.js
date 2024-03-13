@@ -1,0 +1,13 @@
+/* A division and an addition function */
+function divideBy(firstNumber) {
+  return(secondNumber) => (secondNumber / firstNumber);
+}
+
+function addBy(firstNumber) {
+  return(secondNumber) => (firstNumber + secondNumber);
+}
+
+const addBy100 = addBy(100);
+const addBy1000 = addBy(1000);
+const divideBy10 = divideBy(10);
+const divideBy100 = divideBy(100);
